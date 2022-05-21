@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163561596-4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-163561596-4');
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Jogo da Memória</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="memoria.css">
+
+</head>
+<body>
+    <div>
+        <h1> Jogo da Memória</h1>
+    </div>
+    <div class="controles">
+        <button class="info">i</button>
+        <button class="play">Play</button>
+        <div class="timer"> <p> 00:00</p> </div>
+        <button class="novo">Novo Jogo</button>
+    </div>
+    <div class="paiTabela">
+        <div class="tabuleiro"></div>
+        <div class="mostraInfos some">
+            <div>Instruções</div>
+            <ul>
+                <li> Ao clicar em PLAY, todas as cartas serão viradas e você terá 3 segundos para memorizá-las.</li>  
+                <li> Você deve combinar cada ator a um filme que ele já estrelou.</li>   
+                <li> Se houver mais de um ator para o mesmo filme, <strike>se vira</strike> escolha o ator principal.</li>  
+            </ul>      
+        </div>
+    </div>
+
+    <script src="memoria.js"></script>
+</body>
+
+</html>
