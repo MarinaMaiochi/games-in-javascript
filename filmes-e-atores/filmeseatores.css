@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Baloo Paaji 2', cursive;
+    background-color: black;
+}
+h1{
+    color: white;
+    size: 20px;
+    margin: 8px 0 0 0;
+}
+.atoresInicio{
+    display: flex;
+    color: white;
+    margin: 0 0 8px 0;
+}
+.ator1{
+    background-color:  #c62a63;
+    margin: 0 4px;
+    padding: 0 4px;
+}
+.ator2{
+    background-color:  #853ab4;
+    margin: 0 4px;
+    padding: 0 4px;
+}
+.caminho{
+    display: flex;
+    flex-direction: row;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+.caminhoFilme{
+    background-color:#00c3ff;
+    margin: 4px;
+    padding: 0 4px; 
+    border: 0;
+    font-size: 16px;
+    color: white;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+.caminhoAtor{
+    background-color:#fc9700;
+    margin: 4px;
+    padding: 0 4px;
+    border: 0;
+    font-size: 16px;
+    color: white;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+.setas>*{
+    height: 34px;
+    display: flex;
+    flex-direction: column;
+    margin: 2px 0;
+}
+.espaco{
+    height: 20px;
+    margin: 0;
+    opacity: 0;
+}

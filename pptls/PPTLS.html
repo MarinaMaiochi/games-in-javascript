@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163674775-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-163674775-1');
+        </script>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+        <title>Pedra Papel Tesoura Spock Lagarto</title>
+        <link rel="stylesheet" href="PPTLS.css">
+    </head>
+
+    <body>
+        <h1>Pedra Papel Tesoura Spock Lagarto</h1>
+        <div class="divImg">
+            <img src="pedra.jpg" alt="pedra" class="token-jogada jogador apagado" data-n="0">
+            <img src="papel.jpg" alt="papel" class="token-jogada jogador apagado"data-n="1">
+            <img src="tesoura.jpg" alt="tesoura" class="token-jogada jogador apagado"data-n="2">
+            <img src="spock.jpg" alt="spock" class="token-jogada jogador apagado"data-n="3">
+            <img src="lagarto.jpg" alt="lagarto" class="token-jogada jogador apagado"data-n="4">
+        </div>
+        <div class="vs">
+            <div class="vc"> Você </div>
+            <img src="vs.png" alt="versus" class="versus">
+            <div class="pc"> Computador </div>
+        </div>
+        <div class="divImg">
+            <img src="pedra.jpg" alt="pedra" class="token-jogada computador apagado" data-n="0">
+            <img src="papel.jpg" alt="papel" class="token-jogada computador  apagado" data-n="1">
+            <img src="tesoura.jpg" alt="tesoura" class="token-jogada computador apagado" data-n="2">
+            <img src="spock.jpg" alt="spock" class="token-jogada computador apagado" data-n="3">
+            <img src="lagarto.jpg" alt="lagarto" class="token-jogada computador apagado" data-n="4">
+        </div>
+
+        <div class="divMelhor">
+            <p class="textoLinhaMelhorDe"> Melhor de:</p>
+            <input type="number" value="3" class="doInput" min="1" max="15">
+        </div>
+        <div class="resultado"> 
+            <p class="vitoriaderrota some">Você <span class="textoresult"></span> a melhor de <span class="qtddMelhorDe"></span>.</p>
+        </div>
+        <div class="divtextoBatalha"> 
+            <p class="textoBatalha some"> <span class="jogJogador"></span> <span class="oqAcontece"></span> <span class="jogPC"></span></p>
+        </div>
+
+        <div id="resultadoJogada" class="mensagemJogada">
+            <div class="box ganhou some"> Ganhou! </div>
+            <div class="box empate some"> Empate! </div>
+            <div class="box perdeu some"> Perdeu! </div>
+        </div>
+        <div class="bolinhas">
+            <div class="box g"></div>
+            <div class="box e"></div>
+            <div class="box p"></div>
+        </div>
+    
+
+        
+        <script src="PPTLS.js"></script>
+    </body>
+</html>

@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    font-family: 'Baloo Paaji 2', cursive;
+    color: white;
+}
+h1{
+    margin: 10px;
+    height: 50px;
+}
+body>div{
+    display: flex;
+    align-items: center; 
+}
+
+.dificuldade{
+    align-items: center;
+}
+.dificuldade>*{
+    margin: 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.botaoD{
+    width: 56px;
+    height: 30px;
+    border-radius: 2px; 
+    cursor: pointer;
+    margin: 0 2px 4px  2px;
+}
+
+.butFacil{
+    background-color: goldenrod;
+}
+.butMedio{
+    background-color:rgb(228, 120, 69);
+}
+.butDificil{
+    background-color:palevioletred;
+}
+
+
+
+.quemComeca{
+    align-items: center;
+}
+.quemComeca>*{
+    margin: 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoSN{
+    width: 50px;
+    height: 30px;
+    border-radius: 2px; 
+    cursor: pointer;
+}
+.butSim{
+    background-color: goldenrod;
+}
+.butNao{
+    background-color:palevioletred;
+}
+.butEscuro{
+    opacity: 50%;
+    cursor: default;
+}
+.tabuleiro{
+    margin: 10px;
+    display: flex;
+    border: goldenrod solid 4px;
+    border-radius: 2px; 
+}
+.celula{
+    width: 50px;
+    height: 50px;
+    border: palevioletred solid 2px;
+    cursor: pointer;
+}
+.some{
+    visibility: hidden;
+}
+.X{
+    color: rgb(0, 0, 0);
+    font-size: 4px;
+    cursor: default ;
+    background-image: url(x.png);
+    background-size: 100% 100%;
+}
+.O{
+    color: rgb(0, 0, 0);
+    font-size: 4px;
+    cursor: default ;
+    background-image: url(o.png);
+    background-size: 100% 100%;
+}
+
+span{
+    margin: 0 0 0 6px;
+}
+.reset{
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 16px;
+    border-radius: 2px; 
+    cursor: pointer;
+    border: none;
+    box-shadow: 0;
+    background-color: white;
+}
+

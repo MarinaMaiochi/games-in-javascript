@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163561596-6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-163561596-6');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Campo Minado</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="campo-minado.css">
+</head>
+
+<body>
+    <h1> Campo Minado </h1>
+    <div class="d1">
+      <div class="d2">
+        <div class="cabecalho">
+          <h4>Linhas</h4> <input class="linhasTab" type="number" min="5" max="24" value="5">
+          <h4>Colunas</h4> <input class="colunasTab" type="number" min="5" max="18" value="5">
+        </div>
+        <div class="cabecalho">
+          <h4 class="dificuldade facil">Fácil</h4>
+          <h4 class="dificuldade medio">Médio</h4> 
+          <h4 class="dificuldade dificil">Difícil</h4> 
+        </div>
+      </div>
+      <div class="d3">
+        <h4 class="novojogo">Novo Jogo</h4> 
+      </div>
+    </div>
+
+    <div class="tabuleiro">
+    </div>
+    <h4 class="resultado" ></h4>
+  
+    
+       
+
+    <script src="campo-minado.js"></script>
+</body>
+
+</html>

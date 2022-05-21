@@ -1,0 +1,258 @@
+body{
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0;
+    margin: 0;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+h1{
+    margin: 2px;
+    font-size: 28px;
+    color: #0beeee ; 
+}
+h2{
+    margin: 2px;
+    font-size: 16px;
+    color: #ffffff ; 
+    text-align: center;
+}
+h3{
+    margin: 2px;
+    font-size: 10px;
+    color: #ffffff ; 
+    font-family:monospace;
+}
+.info{
+    width: 24px;
+    margin: 2px;
+}
+.vert{
+    transform: rotate(90deg);
+}
+img{
+    max-height: 32px;
+}
+.highlight{
+    filter: drop-shadow(2px 2px 5px rgb(0, 238, 255));
+}
+.div1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+} 
+.div2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div3{
+    width: 210px;
+}
+.div4e5{
+    display:flex;
+    height: 32px;
+    align-items: center;
+    color: #0beeee  ;
+}
+.numero{
+   margin: 6px;
+}
+.limpa,.comeca{
+    color: black;
+    background-color: #40c8da ;
+    font-size: 14px;
+    width: 60px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px 0;
+    border-radius: 10px;
+    cursor: default;
+}
+.geradoraleatorio{
+    color: black;
+    background-color: #40c8da ;
+    font-size: 14px;
+    width: 333px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px 0;
+    border-radius: 10px;
+    cursor: default;
+}
+.escuro{
+    opacity: 0.5;
+}
+.paiTabuleirojog{
+    position: relative;
+}
+.tabuleiroJog{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.mostraInfos{
+    position: absolute;
+    top: 48px;
+    left: 16px;
+    width: 90%;
+    height: 83%;
+    background-color: rgb(8, 43, 53); 
+}
+.mostraInfos>*{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin: 10px;
+    font-size: 16px;
+}
+.finalDeJogo{
+    position: absolute;
+    top: 48px;
+    left: 16px;
+    width: 90%;
+    height: 83%;
+    background-color: rgba(255, 255, 255,0.5);
+    
+}
+.finalDeJogo>*{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    color: #152031;
+    margin: 10px;
+    font-size: 48px;
+    text-align: center;
+}
+span>img{
+    height: 20px;
+    margin: -6px 0;
+}
+.some{
+    visibility: hidden;
+}
+
+.estatisticas{
+    display: flex;
+    text-align: center;
+    border:#118080 solid 0.5px ;
+    margin-top: 6px;
+    border:#118080 solid 0.5px ;
+}
+.estatisticas>div{
+    width:110px ;
+}
+.numPlacar{
+    color: #0beeee;
+    border:#118080 solid 0.5px ;
+}
+.textoPlacar{
+    color: #ffffff;
+    border:#118080 solid 0.5px ;
+}
+
+
+
+
+.tabuleiroJog,.tabuleiroPc{
+    display:flex;
+}
+.celula{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    border:  #0beeee solid 0.5px;
+}
+.agua{
+    background-image: url(agua.png);
+    background-size: 32px 32px ;
+}
+.bombaagua::after{
+    background-image: url(bombaagua.png);
+    background-size: 32px 32px ;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+}
+.navio::after{
+    content: '';
+    background-size: 32px 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+}
+.navio.vertical::after {
+    transform: rotate(90deg);
+} 
+.navio.traz.vertical::after {
+    transform: rotate(270deg);
+}
+.navio.traz::after {
+    transform: rotate(180deg);
+}
+.navio1::after {
+    background-image: url(navio1.png);
+}
+.navioPonta::after {
+    background-image: url(NavioPonta.png);
+}
+.navioMeio::after {
+    background-image: url(NavioMeio.png);
+}
+.navio.bomba::after {
+    background-image: url(bomba.png);
+}
+.navio1.bomba::after {
+    background-image: url(bomba.png), url(navio1.png);
+}
+.navioPonta.bomba::after {
+    background-image: url(bomba.png), url(NavioPonta.png);
+}
+.navioMeio.bomba::after{
+    background-image: url(bomba.png), url(NavioMeio.png);
+}
+.navio.trazPc.vertical::after {
+    transform: rotate(270deg);
+}
+.navio.trazPc::after {
+    transform: rotate(180deg);
+}
+
+.box {
+    border: rgb(12, 109, 109) solid 1px;
+    position: relative;
+    height: 360px;
+    width: 330px;
+    overflow: hidden;
+}
+
+.vaiparaesquerda{
+    transform: translateX(-340px);
+}
+.box-inner {
+    transition: ease-in-out transform 0.5s;
+}
+
+.box-jog{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.box-pc{
+    position: absolute;
+    left: 340px;
+    top: 0;
+}
+    

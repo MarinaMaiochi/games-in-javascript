@@ -1,0 +1,103 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Baloo Paaji 2', cursive;
+  background-color: black;
+}
+.d1{
+  display: flex;
+}
+.d3{
+  width: 60px;
+  display: flex;
+  align-items: center;
+}
+.cabecalho{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+}
+.dificuldade{
+  margin: 0 6px;
+  width: 54px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.facil{
+  background-color: lightcoral;
+}
+.medio{
+  background-color: rgb(228, 108, 108);
+}
+.dificil{
+  background-color: rgb(216, 134, 57);
+}
+.butEscuro{
+ opacity: 50%;
+}
+.novojogo{
+  background-color: rgb(226, 176, 69);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input{
+  height: 18px ;
+  width: 40px;
+}
+.linhasTab,.colunasTab{
+  border-radius: 6px;
+  text-indent: 0px;
+  text-align: center;
+  cursor: default;
+  margin: 0em;
+  padding: 0px;
+  border-width: 0;
+  border-image: none;
+}
+h1{
+  margin: 4px 0;
+  color: white;
+}
+h4{
+  margin: 0px 4px;
+  font-family: 'Baloo Paaji 2', cursive;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+.cavado{
+  background-color: rgb(223, 179, 128);
+}
+.grama{
+  background-color: olivedrab;
+}
+.bombaestourada{
+  background-color: rgb(175, 4, 47);;
+  background-image: url(estouro-01.png);
+}
+.bombanaoestourada{
+  background-color: rgb(255, 197, 71);
+  background-image: url(bomba-01.png);
+}
+.bandeira{
+  background-color:rgb(235, 195, 149);
+  background-image: url(flag-01.png);
+}
+.celula{
+  border: rgb(0, 0, 0) solid 1px;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  min-width: 18px;
+  min-height: 18px;
+  background-size: 100% 100% ;
+}
+.tabuleiro{
+  display: flex;
+  justify-content: center;
+  margin: 6px 0;
+  min-width: 90%;
+}

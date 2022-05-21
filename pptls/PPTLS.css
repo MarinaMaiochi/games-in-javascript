@@ -1,0 +1,138 @@
+
+body{
+    font-family: 'Baloo Paaji 2', cursive;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    width: 90%;
+}
+h1{
+    font-size: 14px;
+    margin: 10px;
+    color: white;
+    
+}
+.divImg{
+    margin: 2px;
+    padding: 0px;
+    height: 50px;
+}
+.token-jogada {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: ease-in-out opacity 0.1s;
+}
+.jogador{
+    cursor: pointer;
+    filter: hue-rotate(175deg) brightness(115%) saturate(5);
+}
+.versus{
+    height: 40px;
+    filter: invert(100%);
+}
+.computador{
+    filter: hue-rotate(30deg);
+}
+.vs{
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+}
+.vc{
+    color: goldenrod;
+}
+.pc{
+    color:#9c36db;
+    display: flex;
+    align-items: flex-end;
+}
+.apagado{
+    opacity: 0.4;
+}
+.some{
+    visibility: hidden;
+}
+.box{
+    width: 100px;
+    border: white solid 1px;
+    min-height: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+.mensagemJogada{
+    display: flex;
+    font-size: 14px;
+    margin: 10px;
+}
+.mensagemJogada>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bolinhas{
+    display: flex;
+}
+.bola{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 3px;
+}
+.vermelho{
+    background-color: goldenrod;
+}
+.branco{
+    background-color: seashell;
+}
+.azul{
+    background-color: #9c36db;
+}
+.doInput{
+    width: 30px;
+    height: 18px;
+    margin: 10px 10px 10px 0;
+}
+
+.divMelhor{
+    display: flex;
+    align-items: center;
+}
+
+.textoLinhaMelhorDe{
+    font-size: 14px;
+    color: white;
+    margin-right: 4px;
+}
+.resultado{
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    margin-right: 4px;
+}
+.resultado>p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.divtextoBatalha{
+    font-size: 16px;
+    color: white;
+}
+.divtextoBatalha>p{
+    margin: 0px;
+    padding: 0px;
+}
+.jogJogador{
+    color:goldenrod;
+    font-weight: bold;
+}
+
+.jogPC{
+    color: #9c36db;
+    font-weight: bold;
+}

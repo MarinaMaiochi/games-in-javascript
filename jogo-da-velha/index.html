@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163561596-3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-163561596-3');
+    </script>
+
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Jogos - Marina</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="jogodavelha.css">
+
+</head>
+
+<body>
+    <div>
+        <h1> Jogo da Velha </h1>
+    </div>
+    <div class="dificuldade"> Escolha a Dificuldade: </div>
+    <div class="dificuldade"> 
+        <div class="butFacil botaoD"> FÁCIL </div>
+        <div class="butMedio botaoD"> MÉDIO </div>
+        <div class="butDificil botaoD"> DIFÍCIL </div>
+    </div>
+    <div> Você quer começar? </div>
+    <div class="quemComeca"> 
+        <div class="butSim botaoSN"> SIM </div>
+        <div class="butNao botaoSN"> NÃO </div>
+    </div>
+    <div class="tabuleiro">
+        <div >
+            <div data-casa="0" data-c="1" data-l="1" class="celula vazio"></div>
+            <div data-casa="1" data-c="1" data-l="2" class="celula vazio"></div>
+            <div data-casa="2" data-c="1" data-l="3" class="celula vazio"></div>
+        </div>
+        <div >
+            <div data-casa="3" data-c="2" data-l="1" class="celula vazio"></div>
+            <div data-casa="4" data-c="2" data-l="2" class="celula vazio"></div>
+            <div data-casa="5" data-c="2" data-l="3" class="celula vazio"></div>
+        </div>
+        <div >
+            <div data-casa="6" data-c="3" data-l="1" class="celula vazio"></div>
+            <div data-casa="7" data-c="3" data-l="2" class="celula vazio"></div>
+            <div data-casa="8" data-c="3" data-l="3" class="celula vazio"></div>
+        </div>
+    </div>
+    <div class="textoResultado some"> <span class="resultado"> </span></div>
+    <button type="reset" class="reset">Reiniciar</button>
+    
+
+
+    <script src="jogodavelha.js"></script>
+</body>
+
+</html>
